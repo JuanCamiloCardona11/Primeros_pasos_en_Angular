@@ -1,0 +1,16 @@
+<h3>Ejemplo de uso del *ngIf</h3>
+<section *ngIf="estado" id="division">
+    <div id="card">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Fugit assumenda id magnam architecto, placeat
+            blanditiis!
+        </p>
+    </div>
+</section>
+<button (click)="estado = !estado" id="btn-mostrar-ocultar">Mostrar/Ocultar</button>
+
+<h3>Ejemplo de uso del *ngFor</h3>
+<h5>Mi lista de amigos:</h5>
+<ul class="miLista">
+    <li class="item-persona" *ngFor="let persona of vecPersonas; let i = index">{{i + 1}} - {{persona}}</li>
+</ul>

@@ -1,0 +1,22 @@
+#card {
+  background-color: aqua;
+  border: 1px solid black;
+  width: 200px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+#btn-mostrar-ocultar {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.item-persona {
+  background-color: gray;
+
+  padding: 5px;
+  width: 200px;
+  margin: 3px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
